@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    {% block head %}
+
+        <title>Rocketseat</title>
+
+    {% endblock %}
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    
+        {% block header %}
+            <header>
+                <div class="links">
+                    <a href="/">Sobre</a>
+                    <a href="classes.njk" >Conteúdos</a>
+                </div>
+            </header>
+        {% endblock %}
+    
+
+    {% block content %}
+
+    {% endblock %}
+
+</body>
+</html>
